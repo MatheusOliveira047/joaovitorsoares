@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+body{
+    background-size: cover;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+}
+
+.profile{
+    text-align: center;
+
+}
+
+
+
+.profile .perfil{
+    border-radius: 40%;
+    box-shadow: 0px 0px 15px black;
+    margin: 70px 0 30px;
+    width: 200px;
+    animation: float 5s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-15px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+
+.profile h2{
+    font-size: 30px;
+}
+
+.profile p{
+    font-style: italic;
+    font-size: 22px;
+}
+
+.profile .boxes {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.profile .boxes a img{
+    width: 40px;
+}
+
+.links{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.links .link{
+    margin: 10px auto;
+    background-color: #fff;
+    width: 80%;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.links .link img{
+    width: 40px;
+    margin-right: 20px;
+}

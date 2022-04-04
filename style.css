@@ -27,14 +27,19 @@ body{
 @keyframes float {
     0%{
         transform: translateY(0);
+        
     }
     50%{
         transform: translateY(-15px);
+        
     }
     100%{
         transform: translateY(0px);
     }
 }
+
+
+
 
 
 .profile h2{
@@ -78,9 +83,11 @@ body{
     text-align: center;
     align-items: center;
     display: flex;
-    justify-content: center;
-    
 
+    justify-content: center;
+      
+ 
+ 
 }
 
 .links .link img{
